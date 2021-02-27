@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background: radial-gradient(#FEBF89,#CFB4C3,#AAA2DC);
+    font-family: 'Shippori Mincho', serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    width: 350px;
+    height: 500px;
+    border: 2px wheat solid;
+    border-radius: 40px;
+
+}
+.header{
+    background: thistle;
+    margin: 20px 200px 0px 200px;
+    border-radius: 20px;
+    box-shadow:20px;
+}
+.info-photo{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+.list{
+    margin-left: 50px;
+    border: 3px solid rosybrown;
+    border-radius: 5px;
+    background: tan;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-item{
+    text-decoration: underline;
+}
+
+.info{
+    border: 2px solid yellow;
+    margin: 5px 300px 5px 300px;
+
+}
+
