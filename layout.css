@@ -1,23 +1,34 @@
 body{
+    margin: 0;
     text-align: center;
     background: radial-gradient(#FEBF89,#CFB4C3,#AAA2DC);
     font-family: 'Shippori Mincho', serif;
 }
-
+a{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin: 0;
+    padding: 0;
+}
 li{
     list-style-type: none;
 }
 
-img{
-    width: 350px;
-    height: 500px;
+.img_photo{
+    max-width: 350px;
+    max-height: 500px;
     border: 2px wheat solid;
     border-radius: 40px;
 
 }
+.conatainer{
+    max-width: 100%;
+}
 .header{
     background: thistle;
-    margin: 20px 200px 0px 200px;
+    margin: 20px 15% 0px 15%;
     border-radius: 20px;
     box-shadow:20px;
 }
@@ -43,7 +54,75 @@ img{
 
 .info{
     border: 2px solid yellow;
-    margin: 5px 300px 5px 300px;
+    margin: 5px 20% 5px 20%;
+}
+
+footer{
+    background-color: #AAA2DC;
+    box-sizing: border-box;
+    height: 30px;
+    margin: 0;
+}
+
+.footer_img{
+    width: 50px;
+    height: 30px;
+}
+.footer_github{
+
+     width: 50px;
+    height: 30px;
+}
+
+
+@media (max-width: 1234px ) {
+    .info-photo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .list{
+        margin-left: 0px;
+    }
+
 
 }
 
+@media (max-width: 970px ) {
+    .info{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 613px ){
+    header{
+        margin: 10px 0 10px 0;
+    }
+    .conatainer{
+        display: flex;
+        flex-direction: column ;
+    }
+    .info-photo{
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+    header{
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+}
+
+@media (max-width: 480px ){
+    .img_photo{
+        width: 90%;
+        height: 30%;
+    }
+    .info-photo{
+        margin: 0;
+    }
+}
+@media (max-width: 320px ){
+    body{
+        margin: 0;
+    }
+}
